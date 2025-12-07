@@ -37,7 +37,7 @@ A common pitfall in home labs is "Ghost IP" conflicts when using Bridged mode. T
 * **Summary:** Exploiting legacy Berkeley r-commands by manipulating source ports.
 * **The Challenge:** Modern Linux kernels block standard users from binding to ports 1-1023. `rlogin` requires a source port in this range to verify "root" trust.
 * **The Fix:** Using `sudo` to bind to a privileged port and ensuring the client binary (`rsh-redone-client`) is installed.
-* **[📄 Read Full Documentation](docs/rlogin_exploit.md)** *(Note: You will link your detailed ODT content here)*
+* **[📄 Read Full Documentation](docs/rlogin_exploit.md)** 
 
 ## 🛠️ Tools Used
 * **Nmap:** Network mapping and service version detection.
